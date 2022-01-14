@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background-color: aquamarine;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   font-family: 'Nunito', sans-serif;
+   height: 100vh;
+}
+
+input{
+    background-color: lightgray;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border-bottom: 30px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+/* ------------- Adding styling to the newly created cards for individual user -----*/
+
+
+
+
