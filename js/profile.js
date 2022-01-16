@@ -46,7 +46,7 @@ function userCardCreation(user){
                 <li>${user.public_repos}<b>Repositories</b></li>
                 </ul>
 
-                <div class="repos"></div>
+                <div id="repos"></div>
             </div>
     </div>
     `;
@@ -60,7 +60,7 @@ function addRepositorytoCard(repos){
 
     repos
     .sort((a,b)=> b.stargazers_count - a.stargazers_count)
-    .slice(0,10)
+    .slice(0,12)
     .forEach((repo) =>{
         const repositoryElement = document.createElement("a");
         repositoryElement.classList.add("repo");
