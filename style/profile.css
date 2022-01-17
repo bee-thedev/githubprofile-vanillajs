@@ -243,6 +243,12 @@ input:focus{
     font-size: 14px;
 }
 
+input{
+  width:250px;
+}
+button{
+  width:100px;
+}
 
 }
 
