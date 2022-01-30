@@ -213,6 +213,7 @@ input:focus{
     align-items: center;
     padding: 1.5rem;
     max-width: 400px;
+      border-radius: none;
 }
 
 /* .user-creation:hover{
